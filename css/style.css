@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 50%;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CB1E36;
+    width: 50vw;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 500px;
+    height: 500px;
+}
+
+.logo{
+
+    
+    margin-top: 10%;
+}
+
+.logo2{
+    
+    width: 220px;
+    height: 80px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 430px;
+    padding-top: 20px;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+input{
+    width: 400px;
+    height: 45px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #3f3d560c;
+}
+
+.botao{
+
+    width: 255px;
+    height: 45px;
+    color:  #EA0032;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    line-height: 26.82px;
+    
+}
+
+.texto1{
+
+    visibility: hidden;
+}
+
+.texto2{
+    color: #FFFFFF;
+   font-size: 13px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   
+}
+
+.termo{
+
+    display: flex;
+    margin-left: 10px;
+}
+
+.conecta{
+
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .imagem{
+        width: 0;
+        height: 0;
+    }
+    .logo2{
+
+        width: 220px;
+        height: 80px;
+    }
+
+    .div3{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .div2{
+        width: 0;
+        height: 0;
+    }
+
+    input{
+
+        width: 770px;
+        height: 40px;
+        margin-bottom: 50px;
+
+    }
+
+    label{
+
+        font-size: 22px;
+    }
+
+    .formulario{
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .texto1{
+
+        visibility: visible;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .termo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto2{
+
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        width: 368px;
+
+    }
+
+    .conecta{
+
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    .div3{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 130vw;
+    }
+
+    input{
+
+        width: 620px;
+        height: 37px;
+        margin-bottom: 50px;
+
+    }
+
+    .texto1{
+        width: 540px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .div3{
+        display: flex;
+        justify-content: space-around;
+        width: 155vw;
+        height: 220vw;
+    }
+
+    input{
+
+        width: 360px;
+        height: 38px;
+        margin-bottom: 50px;
+
+    }
+
+    .texto1{
+ 
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .texto2{
+
+        font-size: 15px;
+        width: 368px;
+        text-align: center;
+
+    }
+
+}
+
+
+    
+
+    
