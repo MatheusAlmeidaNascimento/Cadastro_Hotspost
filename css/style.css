@@ -51,6 +51,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 15px;
     height: 430px;
     padding-top: 20px;
 }
@@ -63,10 +64,10 @@ label{
 }
 
 input{
-    width: 400px;
+    
     height: 45px;
     margin-bottom: 25px;
-    border-radius: 15px;
+    border-radius: 12px;
     border: none;
     box-shadow: 2px 2px 2px 2px #3f3d560c;
 }
@@ -113,148 +114,135 @@ input{
 
 @media (max-width:991px){
 
-    html{
-        font-size: 55%;
-    }
+.imagem{
 
-    .imagem{
-        width: 0;
-        height: 0;
-    }
-    .logo2{
+    width: 0;
+    height: 0;
+}
 
-        width: 220px;
-        height: 80px;
-    }
+.div2{
 
-    .div3{
+    width: 0;
+    height: 0;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 108vh;
+}
+
+.texto1{
+
+    visibility: visible;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+
+    width: 480px;
+}
+
+input{
+
+    width: 100%;
+}
+
+
+.termo{
+
+    display: flex;
+    justify-content: center;
+}
+
+    
+
+}
+
+
+@media (max-width:768px){}
+
+
+@media (max-width:451px){
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}    
+
+.div3{
+
+    width: 120vw;
+    height: 111vh;
+}
+
+    
+.texto1{
+    display: flex;
+    justify-content:center ;
+    width: 466px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.formulario{
+
+    width: 356px;
+}
+
+input{
+
+    width: 100%;
+}
+
+.texto2{
+
+    text-align: center;
+}
+
+}
+
+@media (max-width:361px){
+
+    .texto1{
+
         display: flex;
-        justify-content: space-around;
-        width: 100vw;
-        height: 100vw;
-    }
-
-    .div2{
-        width: 0;
-        height: 0;
-    }
-
-    input{
-
-        width: 770px;
-        height: 40px;
-        margin-bottom: 50px;
-
-    }
-
-    label{
-
-        font-size: 22px;
+        justify-content:center ;
+        width: 360px;
+        font-size: 15px;
+        text-align: center;
     }
 
     .formulario{
-        
-        display: flex;
-        justify-content: center;
-        
+
+        width: 308px;
     }
-
-    .texto1{
-
-        visibility: visible;
-        color: #FFFFFF;
-        font-size: 30px;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-    }
-
-    .termo{
-        display: flex;
-        justify-content: center;
-    }
-
-    .texto2{
-
-        font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        text-align: center;
-        width: 368px;
-
-    }
-
-    .conecta{
-
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-
-
-@media (max-width:768px){
-
-    .div3{
-        display: flex;
-        justify-content: space-around;
-        width: 100vw;
-        height: 130vw;
-    }
-
+    
     input{
-
-        width: 620px;
-        height: 37px;
-        margin-bottom: 50px;
-
+    
+        width: 100%;
     }
 
-    .texto1{
-        width: 540px;
-        font-size: 28px;
-        text-align: center;
+    .logo2{
+    
+        width: 150px;
+        height: 60px;
     }
+    
 
-
-}
-
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
-
-    .div3{
-        display: flex;
-        justify-content: space-around;
-        width: 155vw;
-        height: 220vw;
-    }
-
-    input{
-
-        width: 360px;
-        height: 38px;
-        margin-bottom: 50px;
-
-    }
-
-    .texto1{
- 
-        width: 300px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .texto2{
-
-        font-size: 15px;
-        width: 368px;
-        text-align: center;
-
-    }
 
 }
 
